@@ -1,21 +1,12 @@
 const frames = [
-`M
-`,
-`MA
-`,
-`MAT
-`,
-`MATT
-`,
-`MATTE
-`,
-`MATTE 
-D
-`,
-`MATTE DE
-`,
-`MATTE DEV
-`
+`M`,
+`MA`,
+`MAT`,
+`MATT`,
+`MATTE`,
+`MATTE D`,
+`MATTE DE`,
+`MATTE DEV`
 ];
 
 exports.handler = async () => {
@@ -26,3 +17,4 @@ exports.handler = async () => {
     body: "\x1b[2J\x1b[H" + frame
   };
 };
+
